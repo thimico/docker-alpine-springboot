@@ -1,4 +1,4 @@
-FROM thimico/jdk8
+FROM thimico/jre8
 
 VOLUME /tmp
 
