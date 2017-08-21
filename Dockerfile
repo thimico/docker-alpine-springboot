@@ -4,6 +4,7 @@ VOLUME /tmp
 
 RUN mkdir /app
 RUN mkdir /app/logs
+RUN echo '' > /app/logs/guardian.log
 WORKDIR /app
 
 RUN sh -c 'touch /app.war'
