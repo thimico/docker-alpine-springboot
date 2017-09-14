@@ -1,8 +1,8 @@
-FROM thimico/jre8
+FROM thimico/jre7
 
 VOLUME /tmp
 
-RUN mkdir /app
+RUN mkdir /app 	
 WORKDIR /app
 
 RUN sh -c 'touch /app.war'
